@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+}
+line {
+	stroke: rgb(255,0,0);
+	stroke-width: 2;
+}
+.svg {
+	margin: 0;
+	background-color: pink;
+	opacity: 0.2;
+	position: absolute;
+	z-index: 1;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mapper</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<br>
+    <input type="file" id="image-upload" accept="image/*">
+	Split <input type="checkbox" name="" onclick="document.getElementsByTagName('svg')[0].classList.toggle('svg');">
+	<input type="button" name="" value="New" onclick="newCoord();">
+    <input type="button" name="" value="Refresh" onclick="refresh_svg();">
+<br>
+
+<h3>Coordinates:</h3>
+<div id="coords"></div>
+<svg class="svg"></svg> 
+
+<img id="image" src="" alt="img" usemap="#img" style="top: 0; left: 0;">
+
+<map name="img">
+	<area shape="poly" coords="" href="#">
+</map>
+
+<script src="mapper.js"></script>
+
+</body>
+</html>
